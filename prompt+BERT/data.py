@@ -51,6 +51,6 @@ class ChnSentiCrop(Dataset):
     def __getitem__(self, idx):
         return self.data[idx]
 
-train_data = ChnSentiCrop("E:\\NLPProject\\情感分析\\data\\train.txt")
-valid_data = ChnSentiCrop("E:\\NLPProject\\情感分析\\data\\dev.txt")
-test_data = ChnSentiCrop("E:\\NLPProject\\情感分析\\data\\test.txt")
+train_data = ChnSentiCrop("./data/train.txt")
+valid_data = ChnSentiCrop("./data/dev.txt")
+test_data = ChnSentiCrop("./data/test.txt")
